@@ -1,0 +1,29 @@
+# Data files loaded into Fraxinus
+## Launch datasets (12-08-2013) - AT1, AT2 and UB1.
+
+{
+"date_added": "12-08-2013",
+"names": [
+	"ashwellthorpe_AT1_vs_tgac1_AT_LEAST_ONE_ALT.tab",
+	"ashwellthorpe_AT2_vs_tgac1_AT_LEAST_ONE_ALT.tab",
+	"ashwellthorpe_vs_tgac1_MORE_THAN_ONE_ALT.tab",
+	"ashwellthorpe_vs_tgac2_MORE_THAN_ONE_ALT.tab",
+	"upton_broads_vs_tgac1_AT_LEAST_ONE_ALT.tab",
+	"upton_broads_vs_tgac1_MORE_THAN_ONE_ALT.tab"
+	],
+"method": "bwa - vcftools",
+"bams": "sorted.bam"
+},
+{
+"date_added": "not_yet"
+"names": [
+	"FW1_vs_TGAC1_AT_LEAST_ONE_ALT.tab",
+	"FW1_vs_TGAC1_MORE_THAN_ONE_ALT.tab",
+	"LM1_AT_LEAST_ONE_ALT.tab",
+	"LM1_vs_TGAC1_MORE_THAN_ONE_ALT.tab",
+	"WW1_vs_TGAC1_AT_LEAST_ONE_ALT.tab",
+	"WW1_vs_TGAC1_MORE_THAN_ONE_ALT.tab"
+]
+"method": "tophat - GATK realign",
+"bams": "realigned.bam"
+}
