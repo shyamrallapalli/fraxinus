@@ -1,5 +1,6 @@
 # Data files loaded into Fraxinus
 ## Launch datasets (12-08-2013) - AT1, AT2 and UB1.
+## Second datasets (13-11-2013) - FW1, LM1 and WW1.
 
 {
 "date_added": "12-08-2013",
@@ -15,7 +16,7 @@
 "bams": "sorted.bam"
 },
 {
-"date_added": "not_yet"
+"date_added": "13-11-2013"
 "names": [
 	"FW1_vs_TGAC1_AT_LEAST_ONE_ALT.tab",
 	"FW1_vs_TGAC1_MORE_THAN_ONE_ALT.tab",
