@@ -1,6 +1,7 @@
 # Data files loaded into Fraxinus
 ## Launch datasets (12-08-2013) - AT1, AT2 and UB1.
 ## Second datasets (13-11-2013) - FW1, LM1 and WW1.
+## Only MORE_THAN_ONE_ALT samples were loaded as launch data sets, so for second batch MORE_THAN_ONE_ALT files were filtered and selected.
 
 {
 "date_added": "12-08-2013",
@@ -24,6 +25,16 @@
 	"LM1_vs_TGAC1_MORE_THAN_ONE_ALT.tab",
 	"WW1_vs_TGAC1_AT_LEAST_ONE_ALT.tab",
 	"WW1_vs_TGAC1_MORE_THAN_ONE_ALT.tab"
+]
+"method": "tophat - GATK realign",
+"bams": "realigned.bam"
+}
+{
+"date_added": "13-11-2013"
+"names": [
+	"filter_FW1_vs_TGAC1_MORE_THAN_ONE_ALT.tab",
+	"filter_LM1_vs_TGAC1_MORE_THAN_ONE_ALT.tab",
+	"filter_WW1_vs_TGAC1_MORE_THAN_ONE_ALT.tab"
 ]
 "method": "tophat - GATK realign",
 "bams": "realigned.bam"
